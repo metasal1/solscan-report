@@ -1,0 +1,32 @@
+{
+  "name": "solanadb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metasal1/solanadb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metasal1/solanadb/issues"
+  },
+  "homepage": "https://github.com/metasal1/solanadb#readme",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.4",
+    "@solana/web3.js": "^1.77.3",
+    "axios": "^1.4.0",
+    "cron": "^2.3.1",
+    "dotenv": "^16.0.3",
+    "jsonpath": "^1.1.1",
+    "moment": "^2.29.4",
+    "mongodb": "^5.5.0",
+    "ws": "^8.13.0"
+  }
+}
