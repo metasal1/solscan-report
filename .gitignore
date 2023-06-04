@@ -1,5 +1,7 @@
 credentials.json
 nohup.out
+nfts.json
+list.json
 # Logs
 logs
 *.log
