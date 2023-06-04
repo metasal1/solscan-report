@@ -84,7 +84,7 @@ const job = new CronJob(when, async function () {
             fs.writeFileSync('list.json', JSON.stringify(collectionList));
         }
 
-        const list = `Top ${collectionList.length} collections in the past hour:\n`
+        var list = `Top ${collectionList.length} collections in the past hour:\n`
 
         collectionList.map((collection) => {
             list += `${collection.name} - ${collection.nftsSold} NFTs sold\n`
